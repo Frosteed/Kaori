@@ -8,6 +8,7 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 
 ul {

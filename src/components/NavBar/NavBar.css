@@ -28,6 +28,7 @@ header img{
     margin-top: 1px;
     width: 63px;
 }
+
 header div,
 nav {
 	display: flex;
@@ -55,6 +56,7 @@ nav {
 		transition: 1s;
 		transform: translateY(-100vh);
 		z-index: 9999;
+		
 	}
 
 	header .responsive-nav {

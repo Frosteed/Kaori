@@ -1,8 +1,11 @@
 import './Home.css'
 import { links } from '../../data'
+import Features from '../../components/homeFeatures/Features'
+
 const Home = () => {
 
   return (
+      <>
     <main>
       <section class="header container">
         <div>
@@ -14,7 +17,10 @@ const Home = () => {
         </div>
       </section>
     </main>
-
+    <br /><br />
+    <Features/>
+    </>
+    
 
   )
 }
