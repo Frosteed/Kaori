@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import { features } from './data'
 import './Features.css'
 const Features = () => {
-  const [items, setItems] = useState(features);
+  const [items] = useState(features);
   return (
     <>
       <section className="features" id='features'>
         <br /><br /><br /><br />
-        <h2>Highlited Features</h2>
+        <h2>Features</h2>
 
         {/* --------- Features Containers --------- */}
         {

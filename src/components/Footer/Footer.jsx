@@ -6,7 +6,7 @@ const Footer = () => {
         <br /><br /><br />
             <footer class="footer">
                 <div class="footer-container">
-                    <div class="footer-row">
+                    <div class="footer-row" onClick={() => {window.location.href = '#'}}>
                         <div class="footer-col">
                             <h4>product</h4>
                             <ul>
@@ -20,10 +20,7 @@ const Footer = () => {
                         <div class="footer-col">
                             <h4>Resources</h4>
                             <ul>
-                                <li><a href="/faq">FAQ</a></li>
-                                <li><a href="/terms">terms</a></li>
-                                <li><a href="/blogs">blogs</a></li>
-                                <li><a href="/privacy">privacy</a></li>
+                                <li><Link to='/policy' >privacy policy</Link></li>
                             </ul>
                         </div>
                         <div class="footer-col">
