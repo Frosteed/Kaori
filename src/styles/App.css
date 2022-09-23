@@ -11,18 +11,23 @@
     scroll-behavior: smooth;
 }
 
-ul {
-    list-style: none;
-}
 
 :root {
     --primary: #1eff00;
     --dark: #232323;
-    --background: #1c1c1c;
+    --background: #051308;
     --pure-white: #fff;
     --dark-gray: #999;
+    --dark-gray-more: rgb(68, 68, 68);
+    --hover-color: #26489a;
+
+
+    --dropdown-bg: #2a2f3b;
 }
 
+ul{
+    list-style: none;
+}
 body {
     font-family: 'Lato', sans-serif;
     background: var(--background);

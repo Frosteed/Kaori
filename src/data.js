@@ -1,5 +1,5 @@
 export const links = {
-    supportServer: '#',
-    invite: '#',
-    vote: '#',
+    supportServer: '/',
+    invite: '/',
+    vote: '/',
 }

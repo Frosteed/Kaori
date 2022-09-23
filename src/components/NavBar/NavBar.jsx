@@ -12,12 +12,11 @@ const NavBar = () => {
   return (
     <>
         <header>
-          <img src={require('./images/logo.png')} alt="" />
+          <img src='images/logo.png' alt="" />
           <nav ref={navRef} onClick={showNavBar}>
             <Link to='/'>Home</Link>
+            <Link to='/commands'>Commands</Link>
             <Link to='/policy'>Privacy Policy</Link>
-            <Link to='/about'>About</Link>
-            <Link>Faq</Link>
             <button className="btn" onClick={()=>{window.location.href = links.invite}}>Invite me</button>
             <button className='nav-btn nav-close-btn' >
               <FaTimes></FaTimes>

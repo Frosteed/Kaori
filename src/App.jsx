@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import Footer from "./components/Footer/Footer";
 import { Invite, Support, Vote } from "./pages/linkRoutes/links";
 import Policy from "./pages/Policy/Policy";
+import Commands from "./pages/Commands/Commands";
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home/>}></Route>
         <Route path="*" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
+        <Route path="/commands" element={<Commands/>}></Route>
         <Route path="/policy" element={<Policy/>}></Route>
         {/* ------------- Links Routes ------------------ */}
         <Route path="/support" element={<Support/>} />

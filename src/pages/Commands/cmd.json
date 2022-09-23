@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Ban",
+        "usage": "<user> [reason]",
+        "category": "Moderation",
+        "description": "Ban a member with idea",
+        "aliases": "ban, fuckban, hackban"
+    },
+    {
+        "name": "Utility",
+        "usage": "<user> [reason]",
+        "category": "Utility",
+        "description": "Ban a member with idea",
+        "aliases": "ban, fuckban, hackban"
+    },
+    {
+        "name": "Kick",
+        "usage": "<user> [reason]",
+        "category": "Moderation",
+        "description": "Ban a member with idea",
+        "aliases": "ban, fuckban, hackban"
+    },
+    {
+        "name": "Afk",
+        "usage": "<user> [reason]",
+        "category": "Utility",
+        "description": "Ban a member with idea",
+        "aliases": "ban, fuckban, hackban"
+    },
+    {
+        "name": "Welcome",
+        "usage": "<user> [reason]",
+        "category": "Welcome",
+        "description": "Ban a member with idea",
+        "aliases": "ban, fuckban, hackban"
+    },
+    {
+        "name": "Invite",
+        "usage": "<user> [reason]",
+        "category": "Configs",
+        "description": "Ban a member with idea",
+        "aliases": "ban, fuckban, hackban"
+    },
+    {
+        "name": "Invite",
+        "usage": "<user> [reason]",
+        "category": "Configs",
+        "description": "Ban a member with idea",
+        "aliases": "ban, fuckban, hackban"
+    }
+]
