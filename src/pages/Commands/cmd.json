@@ -1,51 +1,1751 @@
 [
     {
-        "name": "Ban",
-        "usage": "<user> [reason]",
-        "category": "Moderation",
-        "description": "Ban a member with idea",
-        "aliases": "ban, fuckban, hackban"
+          "name": "automod",
+          "description": "Configure automod for your server!",
+          "usage": "",
+          "category": "Auto Mod",
+          "aliases": [
+                "am"
+          ]
     },
     {
-        "name": "Utility",
-        "usage": "<user> [reason]",
-        "category": "Utility",
-        "description": "Ban a member with idea",
-        "aliases": "ban, fuckban, hackban"
+          "name": "automod ignore",
+          "description": "Automod ignore configs",
+          "usage": "",
+          "category": "Auto Mod",
+          "aliases": []
     },
     {
-        "name": "Kick",
-        "usage": "<user> [reason]",
-        "category": "Moderation",
-        "description": "Ban a member with idea",
-        "aliases": "ban, fuckban, hackban"
+          "name": "automod ignore addchannels",
+          "description": "Add channels to automod ignore channels",
+          "usage": "<channel>",
+          "category": "Auto Mod",
+          "aliases": []
     },
     {
-        "name": "Afk",
-        "usage": "<user> [reason]",
-        "category": "Utility",
-        "description": "Ban a member with idea",
-        "aliases": "ban, fuckban, hackban"
+          "name": "automod ignore addroles",
+          "description": "Add roles to automod ignore roles",
+          "usage": "<role>",
+          "category": "Auto Mod",
+          "aliases": []
     },
     {
-        "name": "Welcome",
-        "usage": "<user> [reason]",
-        "category": "Welcome",
-        "description": "Ban a member with idea",
-        "aliases": "ban, fuckban, hackban"
+          "name": "automod show",
+          "description": "Shows the automod conifg",
+          "usage": "",
+          "category": "Auto Mod",
+          "aliases": []
     },
     {
-        "name": "Invite",
-        "usage": "<user> [reason]",
-        "category": "Configs",
-        "description": "Ban a member with idea",
-        "aliases": "ban, fuckban, hackban"
+          "name": "automod module",
+          "description": "Enable/Disable automod modules",
+          "usage": "",
+          "category": "Auto Mod",
+          "aliases": []
     },
     {
-        "name": "Invite",
-        "usage": "<user> [reason]",
-        "category": "Configs",
-        "description": "Ban a member with idea",
-        "aliases": "ban, fuckban, hackban"
+          "name": "automod module enable",
+          "description": "Enable a automod module",
+          "usage": "<module>",
+          "category": "Auto Mod",
+          "aliases": []
+    },
+    {
+          "name": "automod module disable",
+          "description": "Disable a automod module",
+          "usage": "<module>",
+          "category": "Auto Mod",
+          "aliases": []
+    },
+    {
+          "name": "automod disable",
+          "description": "Disable the automod module",
+          "usage": "",
+          "category": "Auto Mod",
+          "aliases": []
+    },
+    {
+          "name": "automod enable",
+          "description": "Enable the automod module",
+          "usage": "",
+          "category": "Auto Mod",
+          "aliases": []
+    },
+    {
+          "name": "automod setlog",
+          "description": "Set the automod log channel",
+          "usage": "[channel]",
+          "category": "Auto Mod",
+          "aliases": []
+    },
+    {
+          "name": "arency",
+          "description": "Shows the arency of the targeted user",
+          "usage": "",
+          "category": "Economy",
+          "aliases": [
+                "bal",
+                "balance"
+          ]
+    },
+    {
+          "name": "work",
+          "description": "Do work and get arency in every 2hr",
+          "usage": "",
+          "category": "Economy",
+          "aliases": []
+    },
+    {
+          "name": "give",
+          "description": "Transfer arency to other user",
+          "usage": "<user> <amount>",
+          "category": "Economy",
+          "aliases": []
+    },
+    {
+          "name": "slots",
+          "description": "Slots machine",
+          "usage": "[amount=1]",
+          "category": "Economy",
+          "aliases": [
+                "s"
+          ]
+    },
+    {
+          "name": "blackjack",
+          "description": "Play blackjack game",
+          "usage": "[amount=1]",
+          "category": "Economy",
+          "aliases": [
+                "bj"
+          ]
+    },
+    {
+          "name": "daily",
+          "description": "Get random amount of arency in every 24hr",
+          "usage": "",
+          "category": "Economy",
+          "aliases": []
+    },
+    {
+          "name": "howto",
+          "description": "It will show the ways you can earn arency",
+          "usage": "",
+          "category": "Economy",
+          "aliases": [
+                "how-to",
+                "income",
+                "earn"
+          ]
+    },
+    {
+          "name": "inventory",
+          "description": "View your's or others inventory",
+          "usage": "[member]",
+          "category": "Economy",
+          "aliases": [
+                "inv"
+          ]
+    },
+    {
+          "name": "hunt",
+          "description": "Hunt down animals and sell them for credits",
+          "usage": "",
+          "category": "Economy",
+          "aliases": []
+    },
+    {
+          "name": "fish",
+          "description": "Catch fishes and sell them for credits",
+          "usage": "",
+          "category": "Economy",
+          "aliases": []
+    },
+    {
+          "name": "beg",
+          "description": "Beg for credits and items",
+          "usage": "",
+          "category": "Economy",
+          "aliases": []
+    },
+    {
+          "name": "sell",
+          "description": "Sell item(s) from your inventory to earn money",
+          "usage": "<item>",
+          "category": "Economy",
+          "aliases": []
+    },
+    {
+          "name": "selfrole",
+          "description": "Create selfroles with araki bot",
+          "usage": "",
+          "category": "Self Roles",
+          "aliases": []
+    },
+    {
+          "name": "selfrole create",
+          "description": "Create a new rolemenu",
+          "usage": "<channel>",
+          "category": "Self Roles",
+          "aliases": [
+                "buttonrole",
+                "rr"
+          ]
+    },
+    {
+          "name": "selfrole show",
+          "description": "Shows all the active self roles in the server",
+          "usage": "",
+          "category": "Self Roles",
+          "aliases": []
+    },
+    {
+          "name": "selfrole delete",
+          "description": "Delete a selfrole using message id",
+          "usage": "<message_id>",
+          "category": "Self Roles",
+          "aliases": [
+                "aliases"
+          ]
+    },
+    {
+          "name": "game",
+          "description": "Play cool games with araki bot",
+          "usage": "",
+          "category": "Games",
+          "aliases": []
+    },
+    {
+          "name": "game slider",
+          "description": "Starts a number slider game (singleplayer)",
+          "usage": "[count=4]",
+          "category": "Games",
+          "aliases": [
+                "slide",
+                "slidepuzzle",
+                "numberslider"
+          ]
+    },
+    {
+          "name": "game connect4",
+          "description": "Starts a connect-4 game with the provided `opponent`",
+          "usage": "<opponent>",
+          "category": "Games",
+          "aliases": [
+                "c4"
+          ]
+    },
+    {
+          "name": "game wordle",
+          "description": "Starts a wordle game (singleplayer)",
+          "usage": "",
+          "category": "Games",
+          "aliases": [
+                "wd"
+          ]
+    },
+    {
+          "name": "game tictactoe",
+          "description": "Starts a tictactoe game with the provided `opponent`",
+          "usage": "<opponent>",
+          "category": "Games",
+          "aliases": [
+                "ttt"
+          ]
+    },
+    {
+          "name": "game typerace",
+          "description": "Starts a multiplayer typerace game in the channel",
+          "usage": "",
+          "category": "Games",
+          "aliases": [
+                "tr"
+          ]
+    },
+    {
+          "name": "game reaction",
+          "description": "Starts a reaction speed test game (multiplayer)",
+          "usage": "",
+          "category": "Games",
+          "aliases": [
+                "react"
+          ]
+    },
+    {
+          "name": "game country",
+          "description": "Starts a country guessing game (singleplayer)",
+          "usage": "[\"-f\"] [\"-l\"] [\"-b\"]",
+          "category": "Games",
+          "aliases": [
+                "cg"
+          ]
+    },
+    {
+          "name": "game rockpaperscissors",
+          "description": "Starts a game of Rock paper scissors.",
+          "usage": "[opponent=None]",
+          "category": "Games",
+          "aliases": [
+                "rps"
+          ]
+    },
+    {
+          "name": "game lightsout",
+          "description": "Starts a Lights-out game (singleplayer)",
+          "usage": "[count=4]",
+          "category": "Games",
+          "aliases": [
+                "lo"
+          ]
+    },
+    {
+          "name": "game chess",
+          "description": "Starts a chess game with the provided `opponent`",
+          "usage": "<opponent>",
+          "category": "Games",
+          "aliases": []
+    },
+    {
+          "name": "game akinator",
+          "description": "Starts an Akinator Game",
+          "usage": "",
+          "category": "Games",
+          "aliases": [
+                "aki",
+                "guesscharacter",
+                "characterguess",
+                "guess"
+          ]
+    },
+    {
+          "name": "game memory-game",
+          "description": "Starts a memory game (singleplayer)",
+          "usage": "",
+          "category": "Games",
+          "aliases": [
+                "mem"
+          ]
+    },
+    {
+          "name": "game hangman",
+          "description": "Starts a hangman game (singleplayer)",
+          "usage": "",
+          "category": "Games",
+          "aliases": []
+    },
+    {
+          "name": "game battleship",
+          "description": "Starts a battleship game with the provided `opponent`",
+          "usage": "<opponent>",
+          "category": "Games",
+          "aliases": [
+                "bs"
+          ]
+    },
+    {
+          "name": "channel",
+          "description": "Channels config",
+          "usage": "",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "channel create",
+          "description": "Create a text channel",
+          "usage": "<name>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "channel delete",
+          "description": "Delete a chanel",
+          "usage": "<channel>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "role",
+          "description": "Role config",
+          "usage": "",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "role remove",
+          "description": "Remove a role to a user",
+          "usage": "<member> <role>",
+          "category": "Moderation",
+          "aliases": [
+                "take",
+                "t",
+                "r"
+          ]
+    },
+    {
+          "name": "role delete",
+          "description": "Delete a role",
+          "usage": "<role>",
+          "category": "Moderation",
+          "aliases": [
+                "del",
+                "d"
+          ]
+    },
+    {
+          "name": "role bots",
+          "description": "Gives a role to all the bots",
+          "usage": "<role>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "role create",
+          "description": "Create a role",
+          "usage": "<name>",
+          "category": "Moderation",
+          "aliases": [
+                "c"
+          ]
+    },
+    {
+          "name": "role give",
+          "description": "Give a role to a user",
+          "usage": "<member> <role>",
+          "category": "Moderation",
+          "aliases": [
+                "g"
+          ]
+    },
+    {
+          "name": "role all",
+          "description": "Gives a role to all the members",
+          "usage": "<role>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "role humans",
+          "description": "Gives a role to all the humans",
+          "usage": "<role>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "removerole",
+          "description": "Remove roles",
+          "usage": "",
+          "category": "Moderation",
+          "aliases": [
+                "rrole"
+          ]
+    },
+    {
+          "name": "removerole all",
+          "description": "Removes a role from all members that have it",
+          "usage": "<role>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "removerole bots",
+          "description": "Removes a role from all bots that have it",
+          "usage": "<role>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "removerole humans",
+          "description": "Removes a role from all humans that have it",
+          "usage": "<role>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "ban",
+          "description": "Ban a member",
+          "usage": "<member> [reason]",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "kick",
+          "description": "Kick a member",
+          "usage": "<member> [reason]",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "unban",
+          "description": "Unban a member",
+          "usage": "<member> [reason]",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "lock",
+          "description": "\ud83d\udd12 Disables @everyone from sending messages in specific channel.",
+          "usage": "[channel]",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "lockall",
+          "description": "\ud83d\udd12 Disables @everyone from sending messages in every channel.",
+          "usage": "",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "unlock",
+          "description": "\ud83d\udd13 Allows @everyone to send messages in specific channel.",
+          "usage": "[channel]",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "unlockall",
+          "description": "\ud83d\udd13 Allows @everyone to send messages in every channel.",
+          "usage": "[channel]",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "clear",
+          "description": "Cleans messages from a channel",
+          "usage": "",
+          "category": "Moderation",
+          "aliases": [
+                "c",
+                "purge",
+                "cleanup",
+                "clean"
+          ]
+    },
+    {
+          "name": "clear reactions",
+          "description": "Removes all reactions from messages that have them",
+          "usage": "<amount>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "clear user",
+          "description": "Removes all messages by the member",
+          "usage": "<member> <amount>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "clear images",
+          "description": "Removes messages that have embeds or attachments",
+          "usage": "<amount>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "clear bot",
+          "description": "Removes a bot user's messages and messages with their optional prefix",
+          "usage": "<prefix> <amount>",
+          "category": "Moderation",
+          "aliases": [
+                "bots"
+          ]
+    },
+    {
+          "name": "clear contains",
+          "description": "Removes all messages containing a substring",
+          "usage": "<contains>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "clear emoji",
+          "description": "Removes all messages containing custom emoji",
+          "usage": "<amount>",
+          "category": "Moderation",
+          "aliases": [
+                "emojis"
+          ]
+    },
+    {
+          "name": "clear embeds",
+          "description": "Removes messages that have embeds in them",
+          "usage": "<amount>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "clear all",
+          "description": "Removes all messages",
+          "usage": "<amount>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "clear files",
+          "description": "Removes messages that have attachments in them",
+          "usage": "<amount>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "mute",
+          "description": "Timeouts someone for specific time",
+          "usage": "<user> [time]",
+          "category": "Moderation",
+          "aliases": [
+                "stfu",
+                "tempmute",
+                "tempblock"
+          ]
+    },
+    {
+          "name": "unmute",
+          "description": "Remove someone's timeout",
+          "usage": "<user>",
+          "category": "Moderation",
+          "aliases": [
+                "untimeout"
+          ]
+    },
+    {
+          "name": "warn",
+          "description": "Warn a member and give a reason",
+          "usage": "<user> [reason]",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "warnings",
+          "description": "Display number of warnings a user has",
+          "usage": "<user>",
+          "category": "Moderation",
+          "aliases": [
+                "warns"
+          ]
+    },
+    {
+          "name": "warnremove",
+          "description": "Removes a specific amount of warnings for specific users",
+          "usage": "<user> <amount>",
+          "category": "Moderation",
+          "aliases": []
+    },
+    {
+          "name": "multiban",
+          "description": "Bans multiple members from the server",
+          "usage": "[members]... [reason]",
+          "category": "Moderation",
+          "aliases": [
+                "hackban",
+                "fuckban",
+                "fuckoff",
+                "getlost",
+                "getout"
+          ]
+    },
+    {
+          "name": "maintenance",
+          "description": "Enable maintenance mode in your server",
+          "usage": "",
+          "category": "Maintainence Mode",
+          "aliases": [
+                "maintenance-mode",
+                "mmode",
+                "m-mode"
+          ]
+    },
+    {
+          "name": "maintenance off",
+          "description": "Disable maintenance mode in your server",
+          "usage": "",
+          "category": "Maintainence Mode",
+          "aliases": []
+    },
+    {
+          "name": "maintenance on",
+          "description": "Enable maintenance mode in your server",
+          "usage": "",
+          "category": "Maintainence Mode",
+          "aliases": []
+    },
+    {
+          "name": "blushing",
+          "description": "Blushing",
+          "usage": "",
+          "category": "Emotes",
+          "aliases": []
+    },
+    {
+          "name": "cry",
+          "description": "Crying",
+          "usage": "",
+          "category": "Emotes",
+          "aliases": []
+    },
+    {
+          "name": "smiling",
+          "description": "Smiling",
+          "usage": "",
+          "category": "Emotes",
+          "aliases": []
+    },
+    {
+          "name": "dancing",
+          "description": "Dancing",
+          "usage": "",
+          "category": "Emotes",
+          "aliases": []
+    },
+    {
+          "name": "sleepy",
+          "description": "Sleepy",
+          "usage": "",
+          "category": "Emotes",
+          "aliases": []
+    },
+    {
+          "name": "thinking",
+          "description": "Thinking",
+          "usage": "",
+          "category": "Emotes",
+          "aliases": []
+    },
+    {
+          "name": "triggered",
+          "description": "Triggered",
+          "usage": "",
+          "category": "Emotes",
+          "aliases": []
+    },
+    {
+          "name": "welcome",
+          "description": "Setup welcome with araki",
+          "usage": "",
+          "category": "Welcome",
+          "aliases": []
+    },
+    {
+          "name": "welcome channel",
+          "description": "Set the welcome channel",
+          "usage": "[channel]",
+          "category": "Welcome",
+          "aliases": []
+    },
+    {
+          "name": "welcome enable",
+          "description": "Enable the welcome module",
+          "usage": "",
+          "category": "Welcome",
+          "aliases": []
+    },
+    {
+          "name": "welcome disable",
+          "description": "Remove the welcome channel",
+          "usage": "[channel]",
+          "category": "Welcome",
+          "aliases": []
+    },
+    {
+          "name": "welcome reset",
+          "description": "Reset welcome embed",
+          "usage": "",
+          "category": "Welcome",
+          "aliases": []
+    },
+    {
+          "name": "welcome setup",
+          "description": "Setup welcome embed",
+          "usage": "",
+          "category": "Welcome",
+          "aliases": []
+    },
+    {
+          "name": "welcome test",
+          "description": "Test the welcome message",
+          "usage": "",
+          "category": "Welcome",
+          "aliases": []
+    },
+    {
+          "name": "greet",
+          "description": "Make greet message with araki bot",
+          "usage": "",
+          "category": "Greet",
+          "aliases": []
+    },
+    {
+          "name": "greet config",
+          "description": "Get autorole config for the server",
+          "usage": "",
+          "category": "Greet",
+          "aliases": []
+    },
+    {
+          "name": "greet autodel",
+          "description": "Automatically delete greet message after x seconds",
+          "usage": "<seconds>",
+          "category": "Greet",
+          "aliases": []
+    },
+    {
+          "name": "greet channel",
+          "description": "Setups greet channel",
+          "usage": "",
+          "category": "Greet",
+          "aliases": []
+    },
+    {
+          "name": "greet channel remove",
+          "description": "Removes a channel form the greet channel list",
+          "usage": "<channel>",
+          "category": "Greet",
+          "aliases": []
+    },
+    {
+          "name": "greet channel add",
+          "description": "Adds a channel to the greet channel list",
+          "usage": "<channel>",
+          "category": "Greet",
+          "aliases": []
+    },
+    {
+          "name": "greet test",
+          "description": "Test the greet message",
+          "usage": "",
+          "category": "Greet",
+          "aliases": []
+    },
+    {
+          "name": "greet message",
+          "description": "Set greet message",
+          "usage": "<message>",
+          "category": "Greet",
+          "aliases": []
+    },
+    {
+          "name": "setprefix",
+          "description": "Change the bot prefix",
+          "usage": "<prefix>",
+          "category": "Configs",
+          "aliases": [
+                "prefix"
+          ]
+    },
+    {
+          "name": "embed",
+          "description": "Creates an embed with everything customizable.",
+          "usage": "",
+          "category": "Configs",
+          "aliases": []
+    },
+    {
+          "name": "toggle",
+          "description": "Enable/Disable a module in a channel",
+          "usage": "<module_or_all>",
+          "category": "Configs",
+          "aliases": []
+    },
+    {
+          "name": "avatar",
+          "description": "Display your avatar or someone else's avatar",
+          "usage": "[user] [hide]",
+          "category": "Utility",
+          "aliases": [
+                "av",
+                "pfp"
+          ]
+    },
+    {
+          "name": "banner",
+          "description": "Shows banner of user or server",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "banner server",
+          "description": "Display the server banner",
+          "usage": "[hide]",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "banner user",
+          "description": "Display your banner or someone else's banner",
+          "usage": "[user] [hide]",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "userinfo",
+          "description": "Info about you or someone else's",
+          "usage": "[user] [hide]",
+          "category": "Utility",
+          "aliases": [
+                "whois",
+                "user",
+                "ui"
+          ]
+    },
+    {
+          "name": "serverinfo",
+          "description": "Info about this server",
+          "usage": "[hide]",
+          "category": "Utility",
+          "aliases": [
+                "guildinfo"
+          ]
+    },
+    {
+          "name": "about",
+          "description": "Shows some information about the bot",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "invite",
+          "description": "Get invite link of araki bot",
+          "usage": "",
+          "category": "Utility",
+          "aliases": [
+                "support"
+          ]
+    },
+    {
+          "name": "vote",
+          "description": "Get the araki bot vote link",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "afk",
+          "description": "Set your afk",
+          "usage": "[reason=None]",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "roleinfo",
+          "description": "Get information about a role",
+          "usage": "<role> [hide]",
+          "category": "Utility",
+          "aliases": [
+                "ri"
+          ]
+    },
+    {
+          "name": "emojiinfo",
+          "description": "Get information about a emoji",
+          "usage": "<emoji> [hide]",
+          "category": "Utility",
+          "aliases": [
+                "ei"
+          ]
+    },
+    {
+          "name": "ping",
+          "description": "Get the bot websocket latency",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "setnick",
+          "description": "Changes the nickname of a member",
+          "usage": "<user> [name]",
+          "category": "Utility",
+          "aliases": [
+                "nick",
+                "username",
+                "un"
+          ]
+    },
+    {
+          "name": "membercount",
+          "description": "Get the member count of the server",
+          "usage": "",
+          "category": "Utility",
+          "aliases": [
+                "mc"
+          ]
+    },
+    {
+          "name": "urban",
+          "description": "Find the 'best' definition to your words",
+          "usage": "<search>",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list",
+          "description": "Get the list of x",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list mods",
+          "description": "See a list of mods in the server",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list badges",
+          "description": "See a list of badges with numbers of users in it",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list emojis",
+          "description": "See a list of emojis in the server",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list inrole",
+          "description": "See a list of members that are in the specified role",
+          "usage": "<role>",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list bots",
+          "description": "See a list of bots in the server",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list admins",
+          "description": "See a list of admins in the server",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list joinpos",
+          "description": "Shows all members with  join positions in the current server",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list noroles",
+          "description": "See a list of members which dont have any role",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list boosters",
+          "description": "Shows all server boosters",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "list roles",
+          "description": "See a list of roles in the server",
+          "usage": "",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "emoji",
+          "description": "Add or remove emojis",
+          "usage": "",
+          "category": "Utility",
+          "aliases": [
+                "steal"
+          ]
+    },
+    {
+          "name": "emoji search",
+          "description": "Search for emojis",
+          "usage": "<name>",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "emoji delete",
+          "description": "Delete emoji from the server",
+          "usage": "<emoji>",
+          "category": "Utility",
+          "aliases": [
+                "del",
+                "remove"
+          ]
+    },
+    {
+          "name": "emoji add",
+          "description": "Steals emojis & stickers from other servers.",
+          "usage": "<emoji>",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "editdescription",
+          "description": "Edit the server description",
+          "usage": "<description>",
+          "category": "Utility",
+          "aliases": [
+                "editdesc"
+          ]
+    },
+    {
+          "name": "jumbo",
+          "description": "\ud83d\ude00 Shows a bigger version of the provided emotes",
+          "usage": "<emotes>",
+          "category": "Utility",
+          "aliases": []
+    },
+    {
+          "name": "firstmsg",
+          "description": "Get the first message of the channel.",
+          "usage": "[channel]",
+          "category": "Utility",
+          "aliases": [
+                "fm",
+                "firstmessage",
+                "first_msg"
+          ]
+    },
+    {
+          "name": "247",
+          "description": "Toggle 24/7 mode",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "24/7"
+          ]
+    },
+    {
+          "name": "join",
+          "description": "Connect the bot to your current vc",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "j"
+          ]
+    },
+    {
+          "name": "autoplay",
+          "description": "Toggle autoplay",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "ap"
+          ]
+    },
+    {
+          "name": "filters",
+          "description": "Toggle Enable/Disable filters",
+          "usage": "",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "play",
+          "description": "Play or enqueue a song",
+          "usage": "[query]",
+          "category": "Music",
+          "aliases": [
+                "enqueue",
+                "p"
+          ]
+    },
+    {
+          "name": "search",
+          "description": "Search a song",
+          "usage": "[query]",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "pause",
+          "description": "Pause the player",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "paused"
+          ]
+    },
+    {
+          "name": "resume",
+          "description": "Resume the player",
+          "usage": "",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "loop",
+          "description": "Loop the current music",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "repeat"
+          ]
+    },
+    {
+          "name": "removetrack",
+          "description": "Remove a single track from the music queue.",
+          "usage": "<index>",
+          "category": "Music",
+          "aliases": [
+                "remtrack",
+                "removequeue",
+                "removesong",
+                "rs",
+                "rq",
+                "rt"
+          ]
+    },
+    {
+          "name": "clearqueue",
+          "description": "Clear all music from current queue",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "clq",
+                "clear-queue",
+                "cq",
+                "deletequeue",
+                "delqueue"
+          ]
+    },
+    {
+          "name": "suffle",
+          "description": "Suffle the queue",
+          "usage": "",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "stop",
+          "description": "Stop the music",
+          "usage": "",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "disconnect",
+          "description": "Disconnect the player",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "dc"
+          ]
+    },
+    {
+          "name": "volume",
+          "description": "Set the volume",
+          "usage": "<volume>",
+          "category": "Music",
+          "aliases": [
+                "setvolume",
+                "vol",
+                "changevolume"
+          ]
+    },
+    {
+          "name": "skip",
+          "description": "Skip the current music",
+          "usage": "",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "seek",
+          "description": "Seeks to a position in the track. `Accepted formats are 00:32, 2m 4s, +30s, -23s`",
+          "usage": "<time>",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "nowplaying",
+          "description": "Get the current song..",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "np"
+          ]
+    },
+    {
+          "name": "setupmusic",
+          "description": "Setup music request channel",
+          "usage": "",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "resetmusic",
+          "description": "Reset the music request channel",
+          "usage": "",
+          "category": "Music",
+          "aliases": []
+    },
+    {
+          "name": "queue",
+          "description": "Get the current queues",
+          "usage": "",
+          "category": "Music",
+          "aliases": [
+                "q"
+          ]
+    },
+    {
+          "name": "fun",
+          "description": "Fun with fun",
+          "usage": "",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun emojify",
+          "description": "Emojify",
+          "usage": "[arg]",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun pepe",
+          "description": "Check your PP size!",
+          "usage": "[user]",
+          "category": "Fun",
+          "aliases": [
+                "pp"
+          ]
+    },
+    {
+          "name": "fun brainsize",
+          "description": "Check your brain size!",
+          "usage": "[user]",
+          "category": "Fun",
+          "aliases": [
+                "brain",
+                "iq"
+          ]
+    },
+    {
+          "name": "fun howlong",
+          "description": "How long yours ?",
+          "usage": "[user]",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun ascii",
+          "description": "Convert your text to ascii.",
+          "usage": "<text>",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun rate",
+          "description": "Rates what you desire",
+          "usage": "<thing>",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun reverse",
+          "description": "Everything you type after reverse will of course, be reversed",
+          "usage": "<text>",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun ship",
+          "description": "Ships two users.",
+          "usage": "<user>",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun howcute",
+          "description": "Shows how cute you are, I know you are a cutie!",
+          "usage": "[user]",
+          "category": "Fun",
+          "aliases": [
+                "cute"
+          ]
+    },
+    {
+          "name": "fun password",
+          "description": "Generates a random password string for you",
+          "usage": "[number]",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun coinflip",
+          "description": "Coinflip!",
+          "usage": "",
+          "category": "Fun",
+          "aliases": [
+                "flip",
+                "coin"
+          ]
+    },
+    {
+          "name": "fun hotcalc",
+          "description": "Returns a random percent for how hot is a discord user",
+          "usage": "[user]",
+          "category": "Fun",
+          "aliases": [
+                "howhot",
+                "hot"
+          ]
+    },
+    {
+          "name": "fun howgay",
+          "description": "Calculates how gay the user is!",
+          "usage": "[user]",
+          "category": "Fun",
+          "aliases": [
+                "gay"
+          ]
+    },
+    {
+          "name": "fun beer",
+          "description": "Give someone a beer!",
+          "usage": "[user] [reason]",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun aesthetic",
+          "description": "Makes your text look beautiful",
+          "usage": "[args]",
+          "category": "Fun",
+          "aliases": [
+                "atc"
+          ]
+    },
+    {
+          "name": "fun joke",
+          "description": "Random jokes",
+          "usage": "",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun cool",
+          "description": "Check your cool rate",
+          "usage": "[user]",
+          "category": "Fun",
+          "aliases": []
+    },
+    {
+          "name": "fun howsus",
+          "description": "Calculate how sus someone is!",
+          "usage": "[user]",
+          "category": "Fun",
+          "aliases": [
+                "suscalculator"
+          ]
+    },
+    {
+          "name": "autorole",
+          "description": "Autoroles are roles that are given automatically when a member joins the server",
+          "usage": "",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "autorole config",
+          "description": "Get autorole config for the server",
+          "usage": "",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "autorole humans",
+          "description": "Setup autoroles for humans users",
+          "usage": "",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "autorole humans remove",
+          "description": "Remove a role from autoroles for human users.",
+          "usage": "<role>",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "autorole humans add",
+          "description": "Add role to list of autoroles for human users.",
+          "usage": "<role>",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "autorole bots",
+          "description": "Setup autoroles for bot users",
+          "usage": "",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "autorole bots remove",
+          "description": "Remove a role from autoroles for human users.",
+          "usage": "<role>",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "autorole bots add",
+          "description": "Add role to list of autoroles for bot users.",
+          "usage": "<role>",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "autorole test",
+          "description": "Test the setupped autoroles",
+          "usage": "",
+          "category": "Auto Roles",
+          "aliases": []
+    },
+    {
+          "name": "gstart",
+          "description": "Create quick giveaways with Araki bot",
+          "usage": "<winners> <time> <prize>",
+          "category": "Giveaway",
+          "aliases": [
+                "gs"
+          ]
+    },
+    {
+          "name": "greroll",
+          "description": "Reroll the giveaway (picks a new winner)",
+          "usage": "[message]",
+          "category": "Giveaway",
+          "aliases": [
+                "grr"
+          ]
+    },
+    {
+          "name": "gend",
+          "description": "End the giveaway.",
+          "usage": "[message]",
+          "category": "Giveaway",
+          "aliases": []
+    },
+    {
+          "name": "vcrole",
+          "description": "Create vc roles with araki bot",
+          "usage": "",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "vcrole config",
+          "description": "Get vcroles config for the server",
+          "usage": "",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "vcrole reset",
+          "description": "Clears vcroles config for the server.",
+          "usage": "",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "vcrole humans",
+          "description": "Setup vcroles for human users",
+          "usage": "",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "vcrole humans remove",
+          "description": "Remove a role from vcroles for human users",
+          "usage": "<role>",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "vcrole humans add",
+          "description": "Add role to list of vcroles for human users",
+          "usage": "<role>",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "vcrole bots",
+          "description": "Setup vcroles for bots",
+          "usage": "",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "vcrole bots add",
+          "description": "Add role to list of vcroles for bot users",
+          "usage": "<role>",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "vcrole bots remove",
+          "description": "Remove a role from vcroles for bot users",
+          "usage": "<role>",
+          "category": "Vc Roles",
+          "aliases": []
+    },
+    {
+          "name": "level",
+          "description": "Make levelling with araki bot",
+          "usage": "",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "level roleadd",
+          "description": "Set level role",
+          "usage": "<level> <role>",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "level config",
+          "description": "Shows the level settings",
+          "usage": "",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "level dm",
+          "description": "Makes the bot dm the person leveling up their level up message",
+          "usage": "",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "level leaderboard",
+          "description": "See the level leaderboard",
+          "usage": "",
+          "category": "Levelling",
+          "aliases": [
+                "lb"
+          ]
+    },
+    {
+          "name": "level setxp",
+          "description": "Set levels xp",
+          "usage": "<xp>",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "level message",
+          "description": "Set levels up message",
+          "usage": "<message>",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "level blacklist-role",
+          "description": "Blacklists/Unblacklists one or more roles",
+          "usage": "<role>",
+          "category": "Levelling",
+          "aliases": [
+                "br"
+          ]
+    },
+    {
+          "name": "level channel",
+          "description": "Set levels channel",
+          "usage": "[channel]",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "level toggle",
+          "description": "Enable or disable the levelling module on this server",
+          "usage": "",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "level blacklist-channel",
+          "description": "Blacklists/Unblacklists one or more channels",
+          "usage": "<channel>",
+          "category": "Levelling",
+          "aliases": [
+                "bc"
+          ]
+    },
+    {
+          "name": "rank",
+          "description": "",
+          "usage": "[member]",
+          "category": "Levelling",
+          "aliases": []
+    },
+    {
+          "name": "nsfw",
+          "description": "Nsfw commands",
+          "usage": "",
+          "category": "Nsfw",
+          "aliases": []
+    },
+    {
+          "name": "nsfw hentai",
+          "description": "If you know, you know",
+          "usage": "",
+          "category": "Nsfw",
+          "aliases": []
+    },
+    {
+          "name": "nsfw ero",
+          "description": "Nakeeeddddddddddddd",
+          "usage": "",
+          "category": "Nsfw",
+          "aliases": []
+    },
+    {
+          "name": "nsfw paizuri",
+          "description": "Imagine having boob sex",
+          "usage": "",
+          "category": "Nsfw",
+          "aliases": []
+    },
+    {
+          "name": "nsfw milf",
+          "description": "A real man's pleasure in life",
+          "usage": "",
+          "category": "Nsfw",
+          "aliases": []
+    },
+    {
+          "name": "nsfw ecchi",
+          "description": "Naked anime women, idk",
+          "usage": "",
+          "category": "Nsfw",
+          "aliases": []
+    },
+    {
+          "name": "nsfw ass",
+          "description": "Pictures of anime butt/ass",
+          "usage": "",
+          "category": "Nsfw",
+          "aliases": []
+    },
+    {
+          "name": "nsfw oral",
+          "description": "Yessirrrrrrrrrrrrrrrrrrrrrrrrrr",
+          "usage": "",
+          "category": "Nsfw",
+          "aliases": []
     }
 ]

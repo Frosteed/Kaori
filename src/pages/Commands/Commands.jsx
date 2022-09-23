@@ -37,7 +37,7 @@ const Commands = () => {
 
       })
     })
-  });
+  }, []);
 
 
   // --------------------- Commands Filter -----------------
@@ -95,7 +95,7 @@ const Commands = () => {
                     <p>{command.description + '.'}</p>
                   </div>
                   <div className="command-aliases">
-                    <p>{'Aliases: ' + command.aliases}</p>
+                    <p className='aliases'>{'Aliases: ' + command.aliases.toString()}</p>
                     <p>{`Example: /${command.name.toLowerCase()} ${command.usage}`}</p>
                   </div>
                 </div>
