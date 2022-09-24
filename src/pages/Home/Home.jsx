@@ -1,11 +1,14 @@
 import './Home.css'
 import { links } from '../../data'
 import Features from '../../components/homeFeatures/Features'
-
+import {Helmet} from "react-helmet";
 const Home = () => {
 
   return (
       <>
+        <Helmet>
+            <title>Araki Discord Bot - Home</title>
+        </Helmet>
     <main>
       <section class="header container">
         <div>

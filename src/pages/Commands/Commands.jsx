@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import './Commands.css'
 import Details from './details.json'
 import JSONcommands from './cmd.json'
-
+import { Helmet } from 'react-helmet';
 
 const Commands = () => {
 
@@ -54,6 +54,9 @@ const Commands = () => {
 
   return (
     <>
+    <Helmet>
+            <title>Araki Discord Bot - Commands</title>
+        </Helmet>
       <div className="commands-container">
 
 
