@@ -1,5 +1,6 @@
 import React from 'react'
 import './Link.css'
+import {links} from '../../data.js'
 
 
 export const Invite = () => {
@@ -7,7 +8,7 @@ export const Invite = () => {
     <>
         <div className="container link-header">
             <h2>Invite Araki Bot</h2>
-            <button className="btn link-route-btn">
+            <button onClick={()=>{window.location.href = links.invite}} className="btn link-route-btn">
                 Invite Me
             </button>
         </div>
@@ -20,7 +21,7 @@ export const Support = () => {
       <>
           <div className="container link-header">
               <h2>Join Araki's Server</h2>
-              <button className="btn link-route-btn">
+              <button onClick={()=>{window.location.href = links.supportServer}} className="btn link-route-btn">
                   Join Server
               </button>
           </div>
@@ -33,7 +34,7 @@ export const Support = () => {
       <>
           <div className="container link-header">
               <h2>Vote For Araki</h2>
-              <button className="btn link-route-btn">
+              <button onClick={()=>{window.location.href = links.vote}} className="btn link-route-btn">
                   Vote
               </button>
           </div>

@@ -4,6 +4,7 @@ import './NavBar.css'
 import { useRef } from 'react'
 import { links } from '../../data'
 
+
 const NavBar = () => {
   const navRef = useRef();
   const showNavBar = ()=>{
@@ -12,7 +13,7 @@ const NavBar = () => {
   return (
     <>
         <header>
-          <img src='images/logo.png' alt="" />
+          <img src={process.env.PUBLIC_URL+'/images/logo.png'} alt="" />
           <nav ref={navRef} onClick={showNavBar}>
             <Link to='/'>Home</Link>
             <Link to='/commands'>Commands</Link>
