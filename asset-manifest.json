@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/araki-website/static/css/main.4ef9955b.css",
-    "main.js": "/araki-website/static/js/main.609d6b62.js",
-    "index.html": "/araki-website/index.html",
-    "main.4ef9955b.css.map": "/araki-website/static/css/main.4ef9955b.css.map",
-    "main.609d6b62.js.map": "/araki-website/static/js/main.609d6b62.js.map"
+    "main.css": "/static/css/main.4ef9955b.css",
+    "main.js": "/static/js/main.609d6b62.js",
+    "index.html": "/index.html",
+    "main.4ef9955b.css.map": "/static/css/main.4ef9955b.css.map",
+    "main.609d6b62.js.map": "/static/js/main.609d6b62.js.map"
   },
   "entrypoints": [
     "static/css/main.4ef9955b.css",
