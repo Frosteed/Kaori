@@ -1,7 +1,7 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
 
@@ -10,6 +10,9 @@ nav a{
     margin: 0 2rem;
     color: var(--pure-white);
     text-decoration: none;
+}
+nav a:hover{
+	color: var(--primary);
 }
 header .nav-btn {
 	padding: 5px;

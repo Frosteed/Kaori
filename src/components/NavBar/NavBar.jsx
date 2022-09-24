@@ -16,8 +16,8 @@ const NavBar = () => {
           <nav ref={navRef} onClick={showNavBar}>
             <Link to='/'>Home</Link>
             <Link to='/commands'>Commands</Link>
-            <Link to='/policy'>Privacy Policy</Link>
-            <Link to='/support'>Support Server</Link>
+            <Link to='/policy'>Policy</Link>
+            <Link to='/support'>Support</Link>
             <Link to='/vote'>Vote</Link>
             <button className="btn" onClick={()=>{window.location.href = links.invite}}>Invite me</button>
             <button className='nav-btn nav-close-btn' >
