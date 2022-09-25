@@ -10,6 +10,24 @@ export const features = [
         name: 'Moderation',
         description: 'Keep your server safe with our moderation commands, they will help moderators to take actions on bad users and leave a trace with our modlogs.',
 
+    },
+    {
+        image: process.env.PUBLIC_URL+'/images/embed.png',
+        name: 'Embed Creator',
+        description: 'Araki Embed Creator uses a WYSIWYG approach. You can design and edit the embed message so it looks the way you want it before you send it.',
+
+    },
+    {
+        image: process.env.PUBLIC_URL+'/images/rank.png',
+        name: 'Leveling Features',
+        description: 'Gamers love to grind. Use our leveling system to identify and reward the most active members of your community.',
+
+    },
+    {
+        image: process.env.PUBLIC_URL+'/images/button_roles.png',
+        name: 'ButtonRoles are the future',
+        description: 'ReactionRoles are outdated, try out ButtonRoles now! Easy to set up and even simpler to use.',
+
     }
-    
+
 ]
